@@ -1,0 +1,61 @@
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../Images/road trip.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 60vh; /* Adjust as needed */
+}
+
+.website-headline {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white; /* rgba(27, 100, 94, 0.552) */
+  margin: 20px;
+  font-size: 8vh;
+
+}
+
+.background-color-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px;
+  margin-top: 14vh;
+}
+
+/* Rest of your styles for input-field, divider, search-button, etc. */
+
+  
+  .input-field {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    width: 30vh;
+    height: 7vh;
+    border: none;
+    outline: none;
+
+  }
+  
+  .divider {
+    width: 1px;
+    height: 30px;
+    background-color: #cdcdcd;
+    margin: 0 0px;
+  }
+  
+  .search-button {
+    background-color: rgb(0, 250, 209); /*#e74c3c; */
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    height: 7vh;
+  }
+  

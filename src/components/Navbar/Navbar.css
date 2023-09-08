@@ -1,0 +1,15 @@
+nav {
+    background: linear-gradient(to left, #d2e7e7,rgb(0, 250, 209));
+}
+.container-fluid{
+    padding-left: 5vh;
+}
+
+.login_items{
+    padding-right: 5vh;
+    text-decoration: none;
+    color: black;
+}
+.nav-link {
+    cursor: pointer; /* Set cursor style to hand pointer */
+  }
